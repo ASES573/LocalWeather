@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Local Weather</title>
+        <!-- Bootstrap core CSS -->
+        <link href="https://bootswatch.com/paper/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.2.0/css/mdb.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <style>
+    </style>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">WEATHER NOW</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <body>
+        <div class="card" style="
+            width: 60%;
+            text-align: -webkit-center;
+            margin-left: 20%;
+            height: 30%;
+            ">
+            <!--Card content-->
+            <div class="card-block">
+                <!--Title-->
+                <!--Text-->
+                <hr>
+                <div id="weather">
+                    <h2 id="temp-f"></h2>
+                    <center><img id = "icon"/></center>
+                    <ul>
+                        <li id="currentDate"></li>
+                        <br />
+                        <li id="city"></li>
+                        <br />
+                        <li id="currently"></li>
+                        <br />
+                        <li class="switch-temp btn btn-default">°F / °C</li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.Card content-->
+        </div>
+        <h2 class="lead text-center" id="lblGreetings"> </h2>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+    </body>
+</html>
